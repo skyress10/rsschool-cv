@@ -1,1 +1,1 @@
-# rsschool-cv
+https://skyress9.github.io/rsschool-cv/cv
