@@ -1,4 +1,12 @@
-1. # Semyon Mavrin
-2. *Tel:* ...  *Email:* ... *Telegram:* ...
-3. I want to be as a Front-end developer, as well as gain relevant skills and knowledge
-4. HTML, CSS, JS, git
+# Semyon Mavrin
+
+## Contact
+*Tel:* ...  *Email:* ... *Telegram:* ...
+
+## My skills
+HTML, CSS, JS, git
+
+## Education:
+1. JS for beginners
+2. HTML and CSS for beginners
+3. Some website layouts etc.
