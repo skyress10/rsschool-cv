@@ -221,7 +221,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .footer {
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
 
     position: absolute;
@@ -247,4 +246,36 @@ footer a {
 
 footer a:hover {
     background-color: #c7c7c76b;
+}
+
+/* Media */
+
+@media (max-width: 1220px) {
+    
+    /* Aside */
+
+    .aside__contacts, .aside__skills {
+        margin-bottom: 15px;
+    }
+
+    .aside__item {
+        width: 100%;
+    }
+}
+
+@media print {
+
+    /* Aside */
+
+    .aside__profile {
+        margin-bottom: 0;
+    }
+
+    .aside__title {
+        color: #2a3447;
+    }
+
+    .aside__item, .aside__item a {
+        color: #2a3447;
+    }
 }
