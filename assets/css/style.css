@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
 
-    font-family: 'Exo 2', sans-serif;;
+    font-family: 'Exo 2', sans-serif;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -19,6 +19,22 @@ body {
 h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
+}
+
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 2px solid #2a3447;
+    color: #666;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+
+code {
+    margin: 0;
+    font-size: 16px;
 }
 
 /* Container */
@@ -69,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .aside__title, .main__title {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
     font-size: 1.2rem;
     font-weight: 400;
@@ -88,8 +104,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background-color: #fff;
 }
 
-.aside__contacts, .aside__skills {
-    margin-bottom: 60px;
+.aside__contacts, .aside__skills, .aside__languages {
+    margin-bottom: 30px;
 }
 
 .aside__items {
@@ -166,14 +182,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .main__prof {
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 
     font-size: 0.9rem;
     color: #858585;
 }
 
 .main__subtitle {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
     color: #2a3447;
     font-weight: 700;
@@ -185,11 +201,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .main__content {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .main__item {
-    margin-top: 55px;
+    margin-top: 45px;
 }
 
 .main__item:first-child {
@@ -215,6 +231,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
     font-size: 0.9rem;
     color: #2a3447;
+}
+
+.main__code pre {
+    font-size: 18px;
+
+    background-color: #f0f0f0;
 }
 
 /* Footer */

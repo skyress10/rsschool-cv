@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=PT+Serif&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/04f9db7cc7.js" crossorigin="anonymous"></script>
+    <link type="image/png" sizes="16x16" rel="icon" href="assets/images/avatar.jpg">
     <title>CV</title>
 </head>
 <body>
@@ -46,6 +47,14 @@
                     </ul>
                 </div>
 
+                <div class="aside__education">
+                    <h3 class="aside__title">Education</h3>
+                    <ul class="aside__items">
+                        <li class="aside__item"><i class="fas fa-laptop-code"></i> JS for beginners</li>
+                        <li class="aside__item"><i class="fas fa-laptop-code"></i> HTML/CSS for beginners</li>
+                    </ul>
+                </div>
+
             </div>
         </aside>
 
@@ -59,14 +68,6 @@
             
             <div class="main__content">
                 <div class="main__items">
-                    <section class="main__item">
-                        <h3 class="main__title">Education</h3>
-                        <ul class="main__subjects">
-                            <li class="main__subject">JS for beginners</li>
-                            <li class="main__subject">HTML and CSS for beginners</li>
-                            <li class="main__subject">Some website layouts etc.</li>
-                        </ul>
-                    </section>
 
                     <section class="main__item">
                         <h3 class="main__title">Experience</h3>
@@ -76,8 +77,28 @@
                             <li class="main__subject">Green layout etc.</li>
                         </ul>
                     </section>
+
+                    <section class="main__item">
+                        <h3 class="main__title">Code example</h3>
+                        <div class="main__code">
+                            <pre>
+                                <code>
+    const findSquares = num => {
+
+        let bigger = Math.ceil(num / 2);
+        let smaller = num - bigger;
+        
+        return `${bigger ** 2}-${smaller ** 2}`;
+    };
+                                </code>
+                            </pre>
+                        </div>
+
+                    </section>
+                    
                 </div>
             </div>
+
         </main>
 
         <footer class="footer">
